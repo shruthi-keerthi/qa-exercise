@@ -32,4 +32,16 @@ public class ValtechHomePage extends ObjectRepo {
 		System.out.println("Excercise 2 b: Page title is displayed as : " + driver.getTitle());
 	}
 
+	public void click_on_About() {
+		driver.findElements(By.cssSelector(".navigation__menu__item")).get(0).click();
+	}
+
+	public void click_on_Services() {
+		driver.findElements(By.cssSelector(".navigation__menu__item")).get(2).click();
+	}
+
+	public void click_on_Work() {
+		driver.findElements(By.xpath("//li[@class='navigation__menu__item']//a")).get(1).click();
+	}
+
 }
