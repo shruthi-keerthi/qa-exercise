@@ -1,0 +1,12 @@
+Configuration Setps:
+
+Install Maven Repo
+Import project as Maven Project in any IDE(Eclipse or IntelliJ)
+
+Execution Steps:
+Use Maven command Maven clean
+Maven install or Maven Test
+
+If you are running from command line :
+Go the directory use following command
+MVN clean test
